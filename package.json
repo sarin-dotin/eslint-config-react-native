@@ -1,6 +1,6 @@
 {
-  "name": "@dotin/eslint-config-react-native",
-  "version": "1.0.0",
+  "name": "@dotin-tech/eslint-config-react-native",
+  "version": "1.1.0",
   "description": "Eslint and Prettier config for React Native",
   "keywords": [
     "react",

@@ -4,16 +4,16 @@
 
 ```bash
 # npm
-npx install-peerdeps --dev @dotin/rn-epc
+npx install-peerdeps --dev @dotin-tech/eslint-config-react-native
 # yarn
-npx install-peerdeps --dev @dotin/rn-epc -Y
+npx install-peerdeps --dev @dotin-tech/eslint-config-react-native -Y
 ```
 
 `.eslintrc`:
 
 ```json
 {
-  "extends": ["@dotin/rn-epc"],
+  "extends": ["@dotin-tech/react-native"],
   "settings": {
     "import/resolver": {
       "babel-module": {}
@@ -80,7 +80,7 @@ module.exports = {
 ```js
 {
   "extends": [
-    "@dotin/rn-epc"
+    "@dotin-tech/react-native"
   ],
   "rules": {
     "no-console": 2,
